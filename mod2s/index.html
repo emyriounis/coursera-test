@@ -1,9 +1,119 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Assignment Solution for Module 2</title>
+        <style>
 
+            /********** Base styles **********/
+            * {
+            box-sizing: border-box;
+            }
+            h1 {
+                text-align: center;
+                text-size-adjust: 175%;
+                margin: 35px;
+            }
+
+            section {
+                text-size-adjust: 125%;
+                background-color: gray;
+                border: 2px black;
+                overflow: auto;
+            }
+
+            #d1 {
+                background-color: pink;
+            }
+            #d2 {
+                background-color: red;
+            }
+            #d3 {
+                background-color: yellow;
+            }
+
+            .head {
+                text-align: center;
+                border: solid black;
+                border-width: 0px 0px 2px 2px;
+                list-style-type: square;
+                float: right;
+                padding: 2pt 20px 2px 20px;
+            }
+
+            .text {
+                float: right;
+                padding: 10px;
+            }
+
+            /********** Large devices only **********/
+            @media (min-width: 992px) {
+           .col-lg-4 {
+                border: 2px solid black;
+                width: 33.33%;
+                float: left;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            }
+
+            /********** Medium devices only **********/
+            @media (min-width: 768px) and (max-width: 991px) {
+            .col-md-6, .col-md-12 {
+                border: 2px solid black;
+                margin: 10px;
+                float: left;
+                margin-right: auto;
+                margin-left: auto;
+            }
+           
+            .col-md-6 {
+                width: 50%;
+            }
+            .col-md-12 {
+                width: 100%;
+            }
+            }
+
+            /********** Small devices only **********/
+            @media (max-width: 767px) {
+            .col-sm-12 {
+                border: 2px solid black;
+                width: 100%;
+                margin: 10px;
+            }
+            }
+
+        </style>
     </head>
     <body>
-        
+        <h1>
+            Our Menu
+        </h1>
+        <section class="col-lg-4 col-md-6 col-sm-12">
+            <div class="head" id="d1">
+                Chicken
+            </div>
+            <div class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates delectus quidem assumenda. Ratione modi dignissimos minus in officia aspernatur eum magnam molestiae, velit error asperiores quo quibusdam porro vitae quos.
+            </div>
+        </section>
+        <section class="col-lg-4 col-md-6 col-sm-12">
+            <div class="head" id="d2">
+                Beef
+            </div>
+            <div class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates delectus quidem assumenda. Ratione modi dignissimos minus in officia aspernatur eum magnam molestiae, velit error asperiores quo quibusdam porro vitae quos.
+            </div>
+        </section>
+        <section class="col-lg-4 col-md-12 col-sm-12">
+            <div class="head" id="d3">
+                Sushi
+            </div>
+            <div class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates delectus quidem assumenda. Ratione modi dignissimos minus in officia aspernatur eum magnam molestiae, velit error asperiores quo quibusdam porro vitae quos.
+            </div>
+        </section>
     </body>
 </html>
