@@ -1,0 +1,28 @@
+* {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.name {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 180%;
+}
+
+.box{
+    background-color: grey;
+    margin: 10px auto;
+    padding: 5px 25px 25px 25px;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+}
