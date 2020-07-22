@@ -22,7 +22,7 @@ h1 {
     padding: 5px 25px 25px 25px;
 }
 
-.navbar-brand {
+.navbar-header .navbar-brand {
     color: black;
     font-weight: bold;
 }
