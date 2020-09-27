@@ -1,0 +1,72 @@
+ 
+ 
+ /********** Base styles **********/
+
+#d1 {
+    background-color: pink;
+}
+#d2 {
+    background-color: red;
+}
+#d3 {
+    background-color: yellow;
+}
+
+.head {
+    text-align: center;
+    padding: 2pt 20px 2px 20px;
+    border: solid black;
+    list-style-type: square;
+    border-width: 2px;
+    float: right;
+}
+
+.text {
+    float: right;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-size-adjust: 175%;
+    margin: 35px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+.col-lg-4 {
+    width: 33.3%;
+    float: right;
+    background-color: gray;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6 {
+    width: 50%;
+    float: right;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.col-md-12 {
+    width: 100%;
+    float: right;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 10px;
+}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+.col-sm-12 {
+    width: 100%;
+    float: right;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 10px;
+}
+}
