@@ -12,7 +12,7 @@
     background-color: yellow;
 }
 
-.head {
+.name {
     text-align: center;
     padding: 2pt 20px 2px 20px;
     border: solid black;
@@ -32,9 +32,6 @@ h1 {
     margin: 35px;
 }
 
-.box {
-    background-color: gray;
-}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
