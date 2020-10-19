@@ -3,6 +3,25 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+button {
+    float: right;
+    margin: 10px;
+}
+
+.dropdown-menu {
+    width: 100vw;
+    text-align: center;
+}
+
+.dropdown-item {
+    padding-left: 47vw;
+    padding-right: 47vw;
+}
+
+.dropdown-item:hover {
+    background-color: lightgray;
+}
+
 h1 {
     text-align: center;
     padding: 20px;
