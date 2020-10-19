@@ -9,7 +9,7 @@
     font-size: 1.75em
   }
   
-  b{
+  .head{
     color: #2E3532;
     border:2px solid black;
     position:absolute;
@@ -136,6 +136,7 @@
     .col-md-12 {
       width: 100%;
     }
+  }
   
     /********** Mobile devices only **********/
     @media (max-width: 767px) {
@@ -178,3 +179,5 @@
     .col-sm-12 {
       width: 100%;
     }
+  
+  }
